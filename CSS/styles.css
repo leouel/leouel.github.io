@@ -1,3 +1,12 @@
+.card-columns {
+    @include media-breakpoint-only(lg) {
+      column-count: 4;
+    }
+    @include media-breakpoint-only(xl) {
+      column-count: 5;
+    }
+  }
+
 body {
     height: 100%;
     font-family: "SF Mono", "Fira Code", "Fira Mono", "Roboto Mono", "Lucida Console", Monaco, monospace;
@@ -20,18 +29,29 @@ header {
     counter-reset: item 0;
     z-index: 12;
 }
-
-.main-nav .main-nav-links {
-    
-}
-
+/*
 .hero-text {
     position: absolute;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
 }
+*/
+.intro h1 {
+    color: teal;
+}
 
-.hero-text h1 {
+.about-me h1 {
+    text-align: center;
+    color: teal;
+}
+
+.experience h1 {
+    text-align: center;
+    color: teal;
+}
+
+.projects h1 {
+    text-align: center;
     color: teal;
 }
