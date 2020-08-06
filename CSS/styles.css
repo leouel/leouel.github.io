@@ -1,4 +1,53 @@
-.content { 
-    display: block;
-    padding: 0 150px;
+/*************** TAGS ***************/
+body {
+    background-color: #181627;
+    color: white;
+    font-family: 'Century Gothic';
+}
+
+input::placeholder, textarea::placeholder {
+    color: white;
+}
+
+input {
+    border-style: none;
+    border-bottom-style: solid;
+    border-width: 1px;
+    background: transparent;
+}
+
+textarea {
+    background: transparent;
+    border-style: none;
+    border-bottom-style: solid;
+    border-width: 1px;
+    margin: 5px;
+    resize: none;
+
+}
+
+/*************** CLASSES ***************/
+.section-title {
+    color: rgb(31, 216, 216);
+}
+
+/*************** CLASSES: contact ***************/
+.contact-form-textarea {
+    margin-bottom: 10px;
+}
+
+.contact {
+    text-align: center;
+}
+
+.send-message {
+    background-color: white;
+    border-radius: 23px;
+    color: #181627;
+    font-weight: bold;
+    padding: 5px 10px;
+}
+
+.send-message:hover {
+    color: rgb(31, 216, 216); 
 }
