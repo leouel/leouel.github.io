@@ -26,9 +26,33 @@ textarea {
 
 }
 
+img {
+    max-width: 35%;
+    height: auto;
+}
+
 /*************** CLASSES ***************/
+.section-title-name {
+    color: rgb(31, 216, 216);
+}
+
 .section-title {
     color: rgb(31, 216, 216);
+    text-align: center;
+}
+
+/*************** CLASSES ***************/
+.intro {
+    padding: 10rem;
+}
+
+.about-me {
+    display: flex;
+    padding: 5rem;
+}
+
+.about-me-txt {
+    padding-right: 15px;
 }
 
 /*************** CLASSES: contact ***************/
