@@ -84,8 +84,14 @@ img {
 }
 
 /*************** CLASSES: intro ***************/
+/*
 .intro {
     padding: 10rem;
+}
+*/
+
+.jumbotron {
+    background-color: #181627;
 }
 
 /*************** CLASSES: about me ***************/
