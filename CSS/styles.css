@@ -2,10 +2,10 @@
 body {
     background-color: #181627;
     color: white;
-    font-family: 'Century Gothic';
+    font-family: "Century Gothic";
 }
 
-nav{
+nav {
     background-color: white;
     font-weight: bold;
     padding: 5px 10px;
@@ -19,7 +19,7 @@ nav{
 }
 
 .nav-link:hover {
-    color: rgb(31, 216, 216); 
+    color: rgb(31, 216, 216);
 }
 /*
 ul {
@@ -47,7 +47,8 @@ nav {
 }
 */
 
-input::placeholder, textarea::placeholder {
+input::placeholder,
+textarea::placeholder {
     color: white;
 }
 
@@ -65,7 +66,6 @@ textarea {
     border-width: 1px;
     margin: 5px;
     resize: none;
-
 }
 
 img {
@@ -145,5 +145,5 @@ img {
 }
 
 .send-message:hover {
-    color: rgb(31, 216, 216); 
+    color: rgb(31, 216, 216);
 }
