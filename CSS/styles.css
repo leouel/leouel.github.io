@@ -1,16 +1,25 @@
+/*********** HELPER CLASSES ***********/
+.full-vh {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    min-height: 100vh;
+}
+
 /*************** TAGS ***************/
 body {
     background-color: #181627;
     color: white;
     font-family: "Century Gothic";
+    font-size: 1em;
 }
 
 nav {
     background-color: white;
     font-weight: bold;
-    padding: 5px 10px;
-    margin-top: 10px;
-    border-radius: 5px;
+    padding: 0.3125rem 0.625rem;
+    margin-top: 0.625rem;
+    border-radius: 0.3125rem;
 }
 
 .nav-link {
@@ -21,31 +30,6 @@ nav {
 .nav-link:hover {
     color: rgb(31, 216, 216);
 }
-/*
-ul {
-    list-style: none;
-    margin: 0;
-}
-
-.myNav {
-    background-color: white;
-    color: #181627;
-    font-weight: bold;
-    padding: 5px 10px;
-}
-
-.myNav:hover {
-    color: rgb(31, 216, 216); 
-}
-
-nav {
-    margin: 10px 100px;
-    background-color: white;
-    padding: 10px 0;
-    border-radius: 5px;
-    text-align: center;
-}
-*/
 
 input::placeholder,
 textarea::placeholder {
@@ -55,7 +39,7 @@ textarea::placeholder {
 input {
     border-style: none;
     border-bottom-style: solid;
-    border-width: 1px;
+    border-width: 0.0625rem;
     background: transparent;
 }
 
@@ -63,8 +47,8 @@ textarea {
     background: transparent;
     border-style: none;
     border-bottom-style: solid;
-    border-width: 1px;
-    margin: 5px;
+    border-width: 0.0625rem;
+    margin: 0.3125rem;
     resize: none;
 }
 
@@ -76,74 +60,82 @@ img {
 /*************** CLASSES ***************/
 .section-title-name {
     color: rgb(31, 216, 216);
+    font-size: 5rem;
 }
 
 .section-title {
     color: rgb(31, 216, 216);
     text-align: center;
+    margin: 0.625rem 0 3.125rem;
 }
 
 /*************** CLASSES: intro ***************/
-/*
-.intro {
-    padding: 10rem;
-}
-*/
-
-.jumbotron {
-    background-color: #181627;
-}
 
 /*************** CLASSES: about me ***************/
-
 .about-me {
-    display: flex;
-    padding: 5rem 5rem 10rem 5rem;
-}
-
-.about-me-txt {
-    padding-right: 15px;
+    padding: 4.6875rem 0 6.25srem;
 }
 
 /*************** CLASSES: experience ***************/
 .experience {
-    padding: 5rem;
+    padding: 0 0 5rem;
 }
 
 /*************** CLASSES: projects ***************/
 .project-showcase {
     display: flex;
     justify-content: center;
-    padding: 5rem 5rem 10rem 5rem;
+    padding: 5rem 0 10rem 0;
 }
 
 .project-cards {
-    height: 300px;
-    width: 210px;
-    margin: 0 50px;
-    border: solid 2px;
-    border-radius: 10px;
+    height: 18.75rem;
+    width: 13.125rem;
+    margin: 0 3.125rem;
+    border: solid 0.125rem;
+    border-radius: 0.625rem;
     text-align: center;
 }
 
 /*************** CLASSES: contact ***************/
 .contact-form-textarea {
-    margin-bottom: 10px;
+    margin-bottom: 0.625rem;
 }
 
 .contact {
     text-align: center;
-    padding-bottom: 50px;
+    padding-bottom: 3.125rem;
 }
 
 .send-message {
     background-color: white;
-    border-radius: 23px;
+    border-radius: 1.4375rem;
     color: #181627;
     font-weight: bold;
-    padding: 5px 10px;
+    padding: 0.3125rem 0.625rem;
 }
 
 .send-message:hover {
     color: rgb(31, 216, 216);
+    text-decoration: none;
 }
+
+/*************** FOOTER ***************/
+.footer {
+    text-align: center;
+    height: 9.375rem;
+    background: rgb(16, 204, 204);
+}
+
+.social-links {
+    color: white;
+    text-decoration: none;
+    padding: 0 1rem;
+}
+
+.social-links:hover {
+    text-decoration: none;
+    color: #181627;
+}
+
+/*************** BOOTSTRAP ***************/
