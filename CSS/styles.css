@@ -125,17 +125,26 @@ img {
     text-align: center;
     height: 9.375rem;
     background: rgb(16, 204, 204);
+    padding: 3.125rem 0 0;
 }
 
 .social-links {
     color: white;
     text-decoration: none;
     padding: 0 1rem;
+    font-weight: bold;
+    font-size: 0.875rem;
 }
 
 .social-links:hover {
     text-decoration: none;
     color: #181627;
+}
+
+.copyright {
+    margin: 0;
+    padding: 2.5rem 0 1.25rem;
+    font-size: 0.625rem;
 }
 
 /*************** BOOTSTRAP ***************/
