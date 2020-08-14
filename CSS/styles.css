@@ -10,7 +10,7 @@
 body {
     background-color: #181627;
     color: white;
-    font-family: "Century Gothic";
+    font-family: "Century Gothic", "Nanum Gothic", sans-serif;
     font-size: 1em;
 }
 
@@ -128,6 +128,15 @@ img {
     padding: 3.125rem 0 0;
 }
 
+/*
+hr {
+    margin-bottom: 0;
+    border-style: none;
+    border-bottom: dotted 0.1875rem #181627;
+    width: 4%;
+}
+*/
+
 .social-links {
     color: white;
     text-decoration: none;
@@ -143,7 +152,7 @@ img {
 
 .copyright {
     margin: 0;
-    padding: 2.5rem 0 1.25rem;
+    padding: 2.125rem 0 0 0;
     font-size: 0.625rem;
 }
 
