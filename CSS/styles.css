@@ -85,13 +85,13 @@ img {
 .project-showcase {
     display: flex;
     justify-content: center;
-    padding: 5rem 0 10rem 0;
+    padding: 0 0 10rem 0;
 }
 
 .project-cards {
     height: 18.75rem;
     width: 13.125rem;
-    margin: 0 3.125rem;
+    margin: 0 auto;
     border: solid 0.125rem;
     border-radius: 0.625rem;
     text-align: center;
