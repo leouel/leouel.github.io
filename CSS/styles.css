@@ -97,8 +97,6 @@ img {
     margin: 0.625rem 0 3.125rem;
 }
 
-/*************** CLASSES: intro ***************/
-
 /*************** CLASSES: about me ***************/
 .about-me {
     padding: 4.6875rem 0 6.25rem;
@@ -127,7 +125,7 @@ img {
 
 /*************** CLASSES: contact ***************/
 .contact-form-textarea {
-    margin-bottom: 0.625rem;
+    margin: 0.625rem 0 1.25rem;
 }
 
 .contact {
@@ -153,17 +151,8 @@ img {
     text-align: center;
     height: 9.375rem;
     background: rgb(16, 204, 204);
-    padding: 3.125rem 0 0;
+    padding: 1.875rem 0 0;
 }
-
-/*
-hr {
-    margin-bottom: 0;
-    border-style: none;
-    border-bottom: dotted 0.1875rem #181627;
-    width: 4%;
-}
-*/
 
 .social-links {
     color: white;
@@ -180,8 +169,17 @@ hr {
 
 .copyright {
     margin: 0;
-    padding: 2.125rem 0 0 0;
+    padding: 3.125rem 0 0 0;
     font-size: 0.625rem;
 }
+
+/*
+hr {
+    margin-bottom: 0;
+    border-style: none;
+    border-bottom: dotted 0.1875rem #181627;
+    width: 4%;
+}
+*/
 
 /*************** BOOTSTRAP ***************/
