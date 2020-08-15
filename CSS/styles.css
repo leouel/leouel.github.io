@@ -18,10 +18,6 @@ nav {
     background-color: rgb(16, 204, 204);
     font-weight: bold;
     padding: 0.3125rem 0.625rem;
-    /*
-    margin-top: 0.625rem;
-    border-radius: 0.3125rem;
-    */
 }
 
 .navbar-brand {
@@ -73,7 +69,7 @@ img {
 /*************** CLASSES ***************/
 .section-title-name {
     color: rgb(31, 216, 216);
-    font-size: 5rem;
+    font-size: 4rem;
 }
 
 .section-title {
