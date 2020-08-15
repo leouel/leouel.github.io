@@ -15,20 +15,31 @@ body {
 }
 
 nav {
-    background-color: white;
+    background-color: rgb(16, 204, 204);
     font-weight: bold;
     padding: 0.3125rem 0.625rem;
+    /*
     margin-top: 0.625rem;
     border-radius: 0.3125rem;
+    */
+}
+
+.navbar-brand {
+    margin-left: 0.625rem;
+    color: white;
+}
+
+.navbar-brand:hover {
+    color: #181627;
 }
 
 .nav-link {
-    color: #181627;
+    color: white;
     text-align: center;
 }
 
 .nav-link:hover {
-    color: rgb(31, 216, 216);
+    color: #181627;
 }
 
 input::placeholder,
@@ -56,6 +67,8 @@ img {
     max-width: 35%;
     height: auto;
 }
+
+/*************** NAVIGATION ***************/
 
 /*************** CLASSES ***************/
 .section-title-name {
