@@ -14,6 +14,7 @@ body {
     font-size: 1em;
 }
 
+/*************** NAVIGATION ***************/
 nav {
     background-color: rgb(16, 204, 204);
     font-weight: bold;
@@ -37,6 +38,26 @@ nav {
 .nav-link:hover {
     color: #181627;
 }
+
+/************** MASTER BRANCH OLD NAVBAR STYLE **************/
+/*
+nav {
+    background-color: white;
+    font-weight: bold;
+    padding: 0.3125rem 0.625rem;
+    margin-top: 0.625rem;
+    border-radius: 0.3125rem;
+}
+
+.nav-link {
+    color: #181627;
+    text-align: center;
+}
+
+.nav-link:hover {
+    color: rgb(31, 216, 216);
+}
+*/
 
 input::placeholder,
 textarea::placeholder {
@@ -63,8 +84,6 @@ img {
     max-width: 35%;
     height: auto;
 }
-
-/*************** NAVIGATION ***************/
 
 /*************** CLASSES ***************/
 .section-title-name {
