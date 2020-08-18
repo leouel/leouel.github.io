@@ -104,23 +104,46 @@ img {
 
 /*************** CLASSES: experience ***************/
 .experience {
-    padding: 0 0 5rem;
+    padding: 4.6875rem 0 6.25rem;
 }
 
 /*************** CLASSES: projects ***************/
+.projects {
+    padding: 4.6875rem 0 6.25rem;
+}
+
 .project-showcase {
-    display: flex;
-    justify-content: center;
+    text-align: center;
     padding: 0 0 10rem 0;
 }
 
-.project-cards {
-    height: 18.75rem;
-    width: 13.125rem;
-    margin: 0 auto;
-    border: solid 0.125rem;
-    border-radius: 0.625rem;
-    text-align: center;
+/*************** CLASSES: Projects Cards ***************/
+.proj-body {
+    color: #181627;
+    font-weight: bold;
+}
+
+.proj-header {
+    background: rgb(16, 204, 204);
+}
+
+.proj-title {
+    color: white;
+    font-weight: bold;
+}
+
+.proj-col {
+    padding: 3% 2%;
+}
+
+.dl-btn {
+    font-weight: bold;
+    color: #181627;
+    border: 1px solid #181627;
+}
+
+.dl-btn:hover {
+    background: rgb(16, 204, 204);
 }
 
 /*************** CLASSES: contact ***************/
