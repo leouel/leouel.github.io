@@ -3,43 +3,28 @@
     <head>
         <meta charset="UTF-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+        <!-- BootStrap: CSS CDN -->
         <link
             rel="stylesheet"
             href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
             integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z"
             crossorigin="anonymous"
         />
+
+        <!-- Google Fonts -->
         <link
             href="https://fonts.googleapis.com/css2?family=Nanum+Gothic:wght@400;700&display=swap"
             rel="stylesheet"
         />
+
+        <!-- Local CSS -->
         <link rel="stylesheet" href="CSS/styles.css" />
         <link rel="icon" href="IMG/32-leouel-Favicon.png" />
         <title>leouel</title>
     </head>
     <body>
-        <!--
-                <header>
-                <nav>
-                    <ul class="nav justify-content-center">
-                        <li class="nav-item">
-                            <a class="nav-link active" href="#">about me</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="#">experience</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="#">projects</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="#">contact</a>
-                        </li>
-                    </ul>
-                </nav>
-            </header>
-        -->
-
-        <nav class="navbar navbar-expand-lg navbar-dark">
+        <nav class="navbar sticky-top navbar-expand-lg navbar-dark myNav">
             <a href="#home" class="navbar-brand">leouel.</a>
             <button
                 class="navbar-toggler"
@@ -77,9 +62,9 @@
             </div>
         </nav>
 
-        <div id="home" class="container">
-            <main>
-                <div class="container full-vh">
+        <main>
+            <section id="home">
+                <div class="container-fluid full-vh">
                     <h2>Welcome! I am</h2>
                     <h2 class="section-title-name">Leouel Guanzon</h2>
                     <h3>
@@ -97,42 +82,41 @@
                         </p>
                     </div>
                 </div>
+            </section>
 
-                <div id="about-me-section" class="about-me">
+            <section id="about-me-section">
+                <div class="container-fluid about-me">
                     <header>
                         <h2 class="section-title">about me</h2>
                     </header>
                     <div class="row">
-                        <div class="col-lg-8 col-md-8 col-sm-12">
-                            <div class="myParagraphs">
-                                <p>
-                                    Hello! My name is Leo. I’m 27 years old and
-                                    on my last year of my Bachelor’s degree in
-                                    Computer Science. I have a passion in
-                                    technology and turning ideas into a working
-                                    applications to share to everyone.
-                                </p>
-                                <p>
-                                    I was born in the Philippines and moved to
-                                    United States when I was 12. It was a
-                                    valuable opportunity I didn’t realize until
-                                    I was 18. I have always been the person that
-                                    figures something out, and I have to say, it
-                                    is much easier to do that here in the US.
-                                </p>
-                                <p>
-                                    My drive to be successful comes from a
-                                    family that didn’t have much to begin with.
-                                    A poor family that had to start over upon
-                                    arriving to the land of the free. Luckily, a
-                                    poor family doesn’t lose much starting over,
-                                    but a lot to gain with the right attitude
-                                    and perseverance.
-                                </p>
-                            </div>
+                        <div class="col-lg-8 full-vh">
+                            <p>
+                                Hello! My name is Leo. I’m 27 years old and on
+                                my last year of my Bachelor’s degree in Computer
+                                Science. I have a passion in technology and
+                                turning ideas into a working applications to
+                                share to everyone.
+                            </p>
+                            <p>
+                                I was born in the Philippines and moved to
+                                United States when I was 12. It was a valuable
+                                opportunity I didn’t realize until I was 18. I
+                                have always been the person that figures
+                                something out, and I have to say, it is much
+                                easier to do that here in the US.
+                            </p>
+                            <p>
+                                My drive to be successful comes from a family
+                                that didn’t have much to begin with. A poor
+                                family that had to start over upon arriving to
+                                the land of the free. Luckily, a poor family
+                                doesn’t lose much starting over, but a lot to
+                                gain with the right attitude and perseverance.
+                            </p>
                         </div>
 
-                        <div class="col-lg-4 col-md-4 col-sm-12">
+                        <div class="col-lg-4 full-vh">
                             <img
                                 src="IMG/720x720.png"
                                 alt="af-profile-pic"
@@ -141,8 +125,10 @@
                         </div>
                     </div>
                 </div>
+            </section>
 
-                <div id="experience-section" class="experience">
+            <section id="experience-section">
+                <div class="container-fluid experience">
                     <header>
                         <h2 class="section-title">experience</h2>
                     </header>
@@ -186,166 +172,160 @@
                         affected so far as a USAF Airman.
                     </p>
                 </div>
+            </section>
 
-                <div id="projects-section" class="projects">
-                    <header>
-                        <h2 class="section-title">
-                            projects
-                        </h2>
-                    </header>
+            <section id="projects-section">
+                <div class="container-fluid projects">
+                    <h2 class="section-title">
+                        projects
+                    </h2>
 
-                    <section class="project-showcase">
-                        <div class="row">
-                            <div class="proj-col col-lg-4 col-md-6">
-                                <div class="card">
-                                    <div class="proj-header card-header">
-                                        <h3 class="proj-title">Tubify</h3>
-                                    </div>
-                                    <div class="proj-body card-body">
-                                        <p>
-                                            Transfers YouTube playlist to
-                                            Spotify account.
-                                        </p>
-                                        <p>Chrome Extension</p>
-                                        <p>Languages: JS HTML CSS</p>
-                                    </div>
-                                    <button
-                                        type="button"
-                                        class="dl-btn btn btn-lg btn-block btn-outline-dark"
-                                    >
-                                        Download
-                                    </button>
+                    <div class="row">
+                        <div class="proj-col col-lg-4 col-md-6">
+                            <div class="card">
+                                <div class="proj-header card-header">
+                                    <h3 class="proj-title">Tubify</h3>
                                 </div>
-                            </div>
-
-                            <div class="proj-col col-lg-4 col-md-6">
-                                <div class="card">
-                                    <div class="proj-header card-header">
-                                        <h3 class="proj-title">
-                                            Go, Danny Go!
-                                        </h3>
-                                    </div>
-                                    <div class="proj-body card-body">
-                                        <p>
-                                            2D/3D Game based on the movie "The
-                                            Shining."
-                                        </p>
-                                        <p>Unity</p>
-                                        <p>Language: C#</p>
-                                    </div>
-                                    <button
-                                        type="button"
-                                        class="dl-btn btn btn-lg btn-block btn-outline-dark"
-                                    >
-                                        Download
-                                    </button>
+                                <div class="proj-body card-body">
+                                    <p>
+                                        Transfers YouTube playlist to Spotify
+                                        account.
+                                    </p>
+                                    <p>Chrome Extension</p>
+                                    <p>Languages: JS HTML CSS</p>
                                 </div>
-                            </div>
-
-                            <div class="proj-col col-lg-4">
-                                <div class="card">
-                                    <div class="proj-header card-header">
-                                        <h3 class="proj-title">"To-Do"</h3>
-                                    </div>
-                                    <div class="proj-body card-body">
-                                        <p>
-                                            Planner/Organizer with
-                                            Prioritization features."
-                                        </p>
-                                        <p>iOS Application</p>
-                                        <p>Swift, Playground, C++</p>
-                                    </div>
-                                    <button
-                                        type="button"
-                                        class="dl-btn btn btn-lg btn-block btn-outline-dark"
-                                    >
-                                        Download
-                                    </button>
-                                </div>
+                                <button
+                                    type="button"
+                                    class="dl-btn btn btn-lg btn-block btn-outline-dark"
+                                >
+                                    Download
+                                </button>
                             </div>
                         </div>
-                    </section>
 
-                    <!-- <section class="project-showcase">
-                        <div class="row">
-                            <div class="col-lg-6 col-md-6 col-sm-12">
-                                <div class="project-cards">
-                                    <div class="project-cards-img"></div>
-                                    <div class="project-card-txt">
-                                        <h2>Tubify</h2>
-                                    </div>
+                        <div class="proj-col col-lg-4 col-md-6">
+                            <div class="card">
+                                <div class="proj-header card-header">
+                                    <h3 class="proj-title">
+                                        Go, Danny Go!
+                                    </h3>
                                 </div>
-                            </div>
-                            <div class="col-lg-6 col-md-6 col-sm-12">
-                                <div class="project-cards">
-                                    <div class="project-cards-img"></div>
-                                    <div class="project-card-txt">
-                                        <h2>Go Danny Go!</h2>
-                                    </div>
+                                <div class="proj-body card-body">
+                                    <p>
+                                        2D/3D Game based on the movie "The
+                                        Shining."
+                                    </p>
+                                    <p>Unity</p>
+                                    <p>Language: C#</p>
                                 </div>
+                                <button
+                                    type="button"
+                                    class="dl-btn btn btn-lg btn-block btn-outline-dark"
+                                >
+                                    Download
+                                </button>
                             </div>
                         </div>
-                    </section> -->
+
+                        <div class="proj-col col-lg-4">
+                            <div class="card">
+                                <div class="proj-header card-header">
+                                    <h3 class="proj-title">"To-Do"</h3>
+                                </div>
+                                <div class="proj-body card-body">
+                                    <p>
+                                        Planner/Organizer with Prioritization
+                                        features."
+                                    </p>
+                                    <p>iOS Application</p>
+                                    <p>Swift, Playground, C++</p>
+                                </div>
+                                <button
+                                    type="button"
+                                    class="dl-btn btn btn-lg btn-block btn-outline-dark"
+                                >
+                                    Download
+                                </button>
+                            </div>
+                        </div>
+                    </div>
                 </div>
+            </section>
 
-                <div id="contact-section" class="contact-me"></div>
-                <header>
+            <section id="contact-section" class="contact-me">
+                <div class="container-fluid">
                     <h2 class="section-title">contact</h2>
-                </header>
-                <div class="container contact">
-                    <form action="email.php" method="POST">
-                        <div class="contact-form-name">
-                            <input
-                                type="text"
-                                id="name"
-                                placeholder="name"
-                                style="color: white;"
-                                onfocus="this.placeholder = ''"
-                                onblur="this.placeholder='name'"
-                            />
-                        </div>
-                        <div class="contact-form-email">
-                            <input
-                                type="email"
-                                id="email"
-                                placeholder="email"
-                                style="color: white;"
-                                onfocus="this.placeholder = ''"
-                                onblur="this.placeholder='email'"
-                            />
-                        </div>
-                        <div class="contact-form-textarea">
-                            <textarea
-                                name="message"
-                                id=""
-                                cols="37"
-                                rows="5"
-                                placeholder="message"
-                                style="color: white;"
-                                onfocus="this.placeholder = ''"
-                                onblur="this.placeholder='message'"
-                            ></textarea>
-                        </div>
-                        <a href="" class="send-message">Send</a>
-                    </form>
+                    <div class="contact">
+                        <form action="email.php" method="POST">
+                            <div class="contact-form-name">
+                                <input
+                                    type="text"
+                                    id="name"
+                                    placeholder="name"
+                                    style="color: white;"
+                                    onfocus="this.placeholder = ''"
+                                    onblur="this.placeholder='name'"
+                                />
+                            </div>
+                            <div class="contact-form-email">
+                                <input
+                                    type="email"
+                                    id="email"
+                                    placeholder="email"
+                                    style="color: white;"
+                                    onfocus="this.placeholder = ''"
+                                    onblur="this.placeholder='email'"
+                                />
+                            </div>
+                            <div class="contact-form-textarea">
+                                <textarea
+                                    name="message"
+                                    id=""
+                                    cols="37"
+                                    rows="5"
+                                    placeholder="message"
+                                    style="color: white;"
+                                    onfocus="this.placeholder = ''"
+                                    onblur="this.placeholder='message'"
+                                ></textarea>
+                            </div>
+                            <a href="" class="send-message">Send</a>
+                        </form>
+                    </div>
                 </div>
-            </main>
-        </div>
+            </section>
+        </main>
         <div class="footer">
-            <a href="https://www.instagram.com/leo.gzn/" class="social-links"
-                >Instagram</a
-            >
-            <a href="https://www.facebook.com/leouelgil/" class="social-links"
-                >Facebook</a
-            >
-            <a href="https://www.youtube.com/user/Leouel" class="social-links"
-                >YouTube</a
-            >
-            <!-- <hr /> -->
+            <a
+                href="https://www.instagram.com/leo.gzn/"
+                target="_blank"
+                class="social-links"
+                ><i class="fab fa-instagram fa-2x"></i
+            ></a>
+            <a
+                href="https://www.facebook.com/leouelgil/"
+                target="_blank"
+                class="social-links"
+                ><i class="fab fa-facebook-f fa-2x"></i
+            ></a>
+            <a
+                href="https://www.youtube.com/user/Leouel"
+                target="_blank"
+                class="social-links"
+                ><i class="fab fa-youtube fa-2x"></i
+            ></a>
+            <a
+                href="https://github.com/leouel"
+                target="_blank"
+                class="social-links"
+                ><i class="fab fa-github fa-2x"></i
+            ></a>
+
             <p class="copyright">© 2020 Leouel Guanzon @ USCollectiv.</p>
         </div>
     </body>
 
+    <!-- BootStrap: JavaScript -->
     <script
         src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
         integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
@@ -359,6 +339,12 @@
     <script
         src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"
         integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV"
+        crossorigin="anonymous"
+    ></script>
+
+    <!-- FontAwesome Icons -->
+    <script
+        src="https://kit.fontawesome.com/67c77dccbf.js"
         crossorigin="anonymous"
     ></script>
 </html>

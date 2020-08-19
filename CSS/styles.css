@@ -1,12 +1,3 @@
-/*********** HELPER CLASSES ***********/
-.full-vh {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    min-height: 100vh;
-}
-
-/*************** TAGS ***************/
 body {
     background-color: #181627;
     color: white;
@@ -14,11 +5,41 @@ body {
     font-size: 1em;
 }
 
+img {
+    max-width: 35%;
+}
+
+/*********** HELPER CLASSES ***********/
+#home .full-vh {
+    min-height: 100vh;
+}
+
+.full-vh {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.section-title-name {
+    color: rgb(31, 216, 216);
+    font-size: 4rem;
+}
+
+.section-title {
+    color: rgb(31, 216, 216);
+    text-align: center;
+    margin: 0.625rem 0 3.125rem;
+}
+
+/*********** CONTAINERS ***********/
+.container-fluid {
+    padding: 3% 17% 5%;
+}
+
 /*************** NAVIGATION ***************/
-nav {
+.myNav {
     background-color: rgb(16, 204, 204);
     font-weight: bold;
-    padding: 0.3125rem 0.625rem;
 }
 
 .navbar-brand {
@@ -32,33 +53,59 @@ nav {
 
 .nav-link {
     color: white;
-    text-align: center;
+    text-align: right;
 }
 
 .nav-link:hover {
     color: #181627;
 }
 
-/************** MASTER BRANCH OLD NAVBAR STYLE **************/
-/*
-nav {
-    background-color: white;
+/*************** CLASSES ***************/
+
+/*************** CLASSES: about me ***************/
+
+/*************** CLASSES: experience ***************/
+
+/*************** CLASSES: projects ***************/
+.project-showcase {
+    text-align: center;
+    padding: 0 0 10rem 0;
+}
+
+/*************** CLASSES: Projects Cards ***************/
+.card {
+    text-align: center;
+}
+
+.proj-body {
+    color: #181627;
     font-weight: bold;
-    padding: 0.3125rem 0.625rem;
-    margin-top: 0.625rem;
-    border-radius: 0.3125rem;
 }
 
-.nav-link {
-    color: #181627;
-    text-align: center;
+.proj-header {
+    background: rgb(16, 204, 204);
 }
 
-.nav-link:hover {
+.proj-title {
+    color: white;
+    font-weight: bold;
+}
+
+.proj-col {
+    padding: 3% 2%;
+}
+
+.dl-btn {
+    font-weight: bold;
     color: rgb(31, 216, 216);
+    border: 1px solid #181627;
 }
-*/
 
+.dl-btn:hover {
+    background: rgb(16, 204, 204);
+}
+
+/*************** CLASSES: contact ***************/
 input::placeholder,
 textarea::placeholder {
     color: white;
@@ -80,80 +127,12 @@ textarea {
     resize: none;
 }
 
-img {
-    max-width: 35%;
-    height: auto;
-}
-
-/*************** CLASSES ***************/
-.section-title-name {
-    color: rgb(31, 216, 216);
-    font-size: 4rem;
-}
-
-.section-title {
-    color: rgb(31, 216, 216);
-    text-align: center;
-    margin: 0.625rem 0 3.125rem;
-}
-
-/*************** CLASSES: about me ***************/
-.about-me {
-    padding: 4.6875rem 0 6.25rem;
-}
-
-/*************** CLASSES: experience ***************/
-.experience {
-    padding: 4.6875rem 0 6.25rem;
-}
-
-/*************** CLASSES: projects ***************/
-.projects {
-    padding: 4.6875rem 0 6.25rem;
-}
-
-.project-showcase {
-    text-align: center;
-    padding: 0 0 10rem 0;
-}
-
-/*************** CLASSES: Projects Cards ***************/
-.proj-body {
-    color: #181627;
-    font-weight: bold;
-}
-
-.proj-header {
-    background: rgb(16, 204, 204);
-}
-
-.proj-title {
-    color: white;
-    font-weight: bold;
-}
-
-.proj-col {
-    padding: 3% 2%;
-}
-
-.dl-btn {
-    font-weight: bold;
-    color: #181627;
-    border: 1px solid #181627;
-}
-
-.dl-btn:hover {
-    background: rgb(16, 204, 204);
-}
-
-/*************** CLASSES: contact ***************/
 .contact-form-textarea {
     margin: 0.625rem 0 1.25rem;
 }
 
 .contact {
     text-align: center;
-    padding-bottom: 3.125rem;
 }
 
 .send-message {
@@ -195,14 +174,5 @@ img {
     padding: 3.125rem 0 0 0;
     font-size: 0.625rem;
 }
-
-/*
-hr {
-    margin-bottom: 0;
-    border-style: none;
-    border-bottom: dotted 0.1875rem #181627;
-    width: 4%;
-}
-*/
 
 /*************** BOOTSTRAP ***************/
