@@ -159,7 +159,7 @@ textarea {
 .social-links {
     color: white;
     text-decoration: none;
-    padding: 0 1rem;
+    margin: 0 1rem;
     font-weight: bold;
     font-size: 0.875rem;
 }
