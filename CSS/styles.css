@@ -175,4 +175,9 @@ textarea {
     font-size: 0.625rem;
 }
 
-/*************** BOOTSTRAP ***************/
+/*************** Media Queries ***************/
+@media (max-width: 1028px){
+    .container-fluid {
+        padding: 3% 7% 5%;
+    }
+}
