@@ -176,8 +176,10 @@ textarea {
 }
 
 /*************** Media Queries ***************/
-@media (max-width: 1028px){
+@media (max-width: 1028px) {
     .container-fluid {
         padding: 3% 7% 5%;
     }
 }
+
+/*************** Bootstrap ***************/
